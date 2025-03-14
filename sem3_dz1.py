@@ -10,4 +10,4 @@ d_lst = list(set([i for i in lst if lst.count(i) > 1]))
 # for i in lst:
 #     if lst.count(i) > 1:
 #         d_lst.append(i)
-print('Вывод только дубликатов: ', *d_lst)
+print('Вывод списка дубликатов: ', *d_lst)
